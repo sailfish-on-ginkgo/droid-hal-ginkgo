@@ -42,6 +42,6 @@
 
 
 # On Android 8 the system partition is (intended to be) mounted on /.
-%define makefstab_skip_entries / /vendor /system /dev/stune /dev/cpuset /sys/fs/pstore /dev/cpuctl
+%define makefstab_skip_entries /dev/stune /dev/cpuset /sys/fs/pstore /dev/cpuctl
 
 %include rpm/dhd/droid-hal-device.inc
